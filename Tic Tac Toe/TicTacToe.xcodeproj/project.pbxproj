@@ -15,6 +15,9 @@
 		488EEB232267DC6300DFEACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 488EEB222267DC6300DFEACD /* Assets.xcassets */; };
 		488EEB272267DC6300DFEACD /* TicTacToe-WatchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 488EEB0D2267DC6200DFEACD /* TicTacToe-WatchOS.app */; };
 		488EEB312267E29300DFEACD /* TicTacToeInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488EEB302267E29300DFEACD /* TicTacToeInterfaceController.swift */; };
+		488EEB332267E58400DFEACD /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA41C6A2148CF16001A3F45 /* Game.swift */; };
+		488EEB342267E59400DFEACD /* GameAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA41C662148B945001A3F45 /* GameAI.swift */; };
+		488EEB352267E59D00DFEACD /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA41C602148AE13001A3F45 /* GameBoard.swift */; };
 		9DA41C3C2148ABB5001A3F45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA41C3B2148ABB5001A3F45 /* AppDelegate.swift */; };
 		9DA41C412148ABB5001A3F45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA41C3F2148ABB5001A3F45 /* Main.storyboard */; };
 		9DA41C432148ABB5001A3F45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA41C422148ABB5001A3F45 /* Assets.xcassets */; };
@@ -377,6 +380,9 @@
 				488EEB212267DC6300DFEACD /* ExtensionDelegate.swift in Sources */,
 				488EEB1F2267DC6300DFEACD /* InterfaceController.swift in Sources */,
 				488EEB312267E29300DFEACD /* TicTacToeInterfaceController.swift in Sources */,
+				488EEB342267E59400DFEACD /* GameAI.swift in Sources */,
+				488EEB352267E59D00DFEACD /* GameBoard.swift in Sources */,
+				488EEB332267E58400DFEACD /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
