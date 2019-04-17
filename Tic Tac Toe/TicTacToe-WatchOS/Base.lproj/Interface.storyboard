@@ -9,10 +9,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14490.21"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--Tic Tac Toe Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="TicTacToe_WatchOS" customModuleProvider="target">
+                <controller id="AgC-eL-Hgc" customClass="TicTacToeInterfaceController" customModule="TicTacToe_WatchOS_Extension">
                     <items>
                         <group width="1" height="1" alignment="center" verticalAlignment="center" layout="vertical" spacing="6" id="OOe-dd-oRh">
                             <items>
@@ -50,6 +50,19 @@
                             </items>
                         </group>
                     </items>
+                    <connections>
+                        <outlet property="button1" destination="dBa-f0-lL4" id="AFx-Cv-a3Q"/>
+                        <outlet property="button2" destination="v7b-CF-BPD" id="Le8-zI-TV8"/>
+                        <outlet property="button3" destination="YNh-UF-Sec" id="uhd-qM-Njg"/>
+                        <outlet property="button4" destination="sTI-m3-gso" id="5Oy-ug-1bi"/>
+                        <outlet property="button5" destination="shy-JX-6yB" id="cRd-cW-Q4T"/>
+                        <outlet property="button6" destination="JDG-UM-oRn" id="NW0-ZB-7Qx"/>
+                        <outlet property="button7" destination="sVj-yF-yTw" id="1xG-Ra-OsA"/>
+                        <outlet property="button8" destination="aEK-HR-Rdu" id="iQR-9l-pdp"/>
+                        <outlet property="button9" destination="uqV-s9-82h" id="X4L-KD-Jfz"/>
+                        <outlet property="restLabel" destination="7ED-bg-K68" id="QYS-VX-AEx"/>
+                        <outlet property="turnLabel" destination="OtW-b9-Ogr" id="kU1-pq-2ob"/>
+                    </connections>
                 </controller>
             </objects>
         </scene>

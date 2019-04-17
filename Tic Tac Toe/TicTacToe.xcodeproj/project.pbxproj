@@ -14,6 +14,7 @@
 		488EEB212267DC6300DFEACD /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488EEB202267DC6300DFEACD /* ExtensionDelegate.swift */; };
 		488EEB232267DC6300DFEACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 488EEB222267DC6300DFEACD /* Assets.xcassets */; };
 		488EEB272267DC6300DFEACD /* TicTacToe-WatchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 488EEB0D2267DC6200DFEACD /* TicTacToe-WatchOS.app */; };
+		488EEB312267E29300DFEACD /* TicTacToeInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488EEB302267E29300DFEACD /* TicTacToeInterfaceController.swift */; };
 		9DA41C3C2148ABB5001A3F45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA41C3B2148ABB5001A3F45 /* AppDelegate.swift */; };
 		9DA41C412148ABB5001A3F45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA41C3F2148ABB5001A3F45 /* Main.storyboard */; };
 		9DA41C432148ABB5001A3F45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA41C422148ABB5001A3F45 /* Assets.xcassets */; };
@@ -87,6 +88,7 @@
 		488EEB202267DC6300DFEACD /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		488EEB222267DC6300DFEACD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		488EEB242267DC6300DFEACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		488EEB302267E29300DFEACD /* TicTacToeInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeInterfaceController.swift; sourceTree = "<group>"; };
 		9DA41C382148ABB4001A3F45 /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA41C3B2148ABB5001A3F45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DA41C402148ABB5001A3F45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 		488EEB1D2267DC6300DFEACD /* TicTacToe-WatchOS Extension */ = {
 			isa = PBXGroup;
 			children = (
+				488EEB302267E29300DFEACD /* TicTacToeInterfaceController.swift */,
 				488EEB1E2267DC6300DFEACD /* InterfaceController.swift */,
 				488EEB202267DC6300DFEACD /* ExtensionDelegate.swift */,
 				488EEB222267DC6300DFEACD /* Assets.xcassets */,
@@ -373,6 +376,7 @@
 			files = (
 				488EEB212267DC6300DFEACD /* ExtensionDelegate.swift in Sources */,
 				488EEB1F2267DC6300DFEACD /* InterfaceController.swift in Sources */,
+				488EEB312267E29300DFEACD /* TicTacToeInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
