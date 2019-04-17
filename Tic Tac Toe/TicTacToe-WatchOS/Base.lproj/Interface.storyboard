@@ -1,14 +1,56 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11134" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14490.70" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11055"/>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14490.21"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="TicTacToe_WatchOS" customModuleProvider="target">
+                    <items>
+                        <group width="1" height="1" alignment="center" verticalAlignment="center" layout="vertical" spacing="6" id="OOe-dd-oRh">
+                            <items>
+                                <group width="1" alignment="left" id="D9Q-aB-4kV">
+                                    <items>
+                                        <label width="80" height="1" alignment="left" text="Label" minimumScaleFactor="0.5" id="OtW-b9-Ogr">
+                                            <fontDescription key="font" style="UICTFontTextStyleCaption1"/>
+                                        </label>
+                                        <button width="50" height="30" alignment="right" title="Reset" id="7ED-bg-K68">
+                                            <fontDescription key="font" type="system" pointSize="12"/>
+                                        </button>
+                                    </items>
+                                </group>
+                                <group width="1" alignment="left" spacing="5" id="DgH-Zl-ENJ">
+                                    <items>
+                                        <button width="40" height="30" alignment="left" id="dBa-f0-lL4"/>
+                                        <button width="40" height="30" alignment="left" id="v7b-CF-BPD"/>
+                                        <button width="40" height="30" alignment="left" id="YNh-UF-Sec"/>
+                                    </items>
+                                </group>
+                                <group width="1" alignment="left" spacing="5" id="7gj-kB-JRL">
+                                    <items>
+                                        <button width="40" height="30" alignment="left" id="sTI-m3-gso"/>
+                                        <button width="40" height="30" alignment="left" id="shy-JX-6yB"/>
+                                        <button width="40" height="30" alignment="left" id="JDG-UM-oRn"/>
+                                    </items>
+                                </group>
+                                <group width="1" alignment="left" spacing="5" id="vqs-eg-B4Y">
+                                    <items>
+                                        <button width="40" height="30" alignment="left" id="sVj-yF-yTw"/>
+                                        <button width="40" height="30" alignment="left" id="aEK-HR-Rdu"/>
+                                        <button width="40" height="30" alignment="left" id="uqV-s9-82h"/>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
             </objects>
         </scene>
     </scenes>
